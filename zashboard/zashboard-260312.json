@@ -17,7 +17,7 @@
   "config/use-connecticon-card": "true",
   "config/min-proxy-card-width": "155",
   "config/swipe-in-tabs": "false",
-  "config/import-settings-url": "https://raw.githubusercontent.com/liandu2024/little/refs/heads/main/zashboard/zashboard-20250417.json",
+  "config/import-settings-url": "https://gh-proxy.org/https:/raw.githubusercontent.com/Hexon-X/Hex-Clash/main/zashboard/zashboard-260312.json",
   "config/proxy-preview-type": "bar",
   "config/use-smart-group-sort": "true",
   "config/table-width-mode": "auto",
