@@ -1,0 +1,40 @@
+# NAME: Honor of Kings Global
+# AUTHOR: Hexon
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2026-03-14
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 10
+# DOMAIN-KEYWORD: 2
+# IP-CIDR: 2
+# TOTAL: 16
+
+# 关键字匹配 (涵盖大部分腾讯国际版游戏流量)
+DOMAIN-KEYWORD,sgameglobal
+DOMAIN-KEYWORD,hok
+
+# 核心游戏及资源域名
+DOMAIN,honorofkings.live
+DOMAIN,world.honorofkings.com
+DOMAIN-SUFFIX,sgameglobal.com
+DOMAIN-SUFFIX,honorofkings.com
+DOMAIN-SUFFIX,hok.intlgame.com
+DOMAIN-SUFFIX,hok-dr.intlgame.com
+
+# 腾讯国际游戏平台 (Level Infinite / Intlgame)
+# 注：intlgame.com 为通用域名，若你玩其他腾讯海外游戏（如暗区突围、NIKKE）也会走此分流
+DOMAIN-SUFFIX,intlgame.com
+DOMAIN-SUFFIX,tencentig.com
+DOMAIN-SUFFIX,levelinfinite.com
+
+# 游戏后端与云服务 (TiMi 常用服务)
+DOMAIN-SUFFIX,gcloudcs.com
+
+# 支付与充值 (Midasbuy 官方充值渠道)
+DOMAIN-SUFFIX,midasbuy.com
+
+# 广告与数据归因 (游戏启动及活动验证)
+DOMAIN-SUFFIX,appsflyersdk.com
+
+# IP 段匹配 (不解析域名直接分流)
+IP-CIDR,183.192.65.101/16,no-resolve
+IP-CIDR,43.132.55.55/16,no-resolve
